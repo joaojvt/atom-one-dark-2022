@@ -1,0 +1,26 @@
+{
+    "name": "AtomOndDark2022",
+    "displayName": "Atom One Dark - 2022",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "joaojvt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joaojvt/atom-one-dark-2022"
+    },
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "joaojvt",
+                "uiTheme": "vs-dark",
+                "path": "./themes/joaojvt-color-theme.json"
+            }
+        ]
+    }
+}
